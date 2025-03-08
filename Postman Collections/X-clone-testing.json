@@ -15,6 +15,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "ngjern234gj3rg03"
+							}
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -37,6 +43,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "ngjern234gj3rg03"
+							}
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -59,6 +71,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "ngjern234gj3rg03"
+							}
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -87,6 +105,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "ngjern234gj3rg03"
+							}
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -109,6 +133,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "ngjern234gj3rg03"
+							}
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -131,6 +161,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "ngjern234gj3rg03"
+							}
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -153,6 +189,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "ngjern234gj3rg03"
+							}
+						},
 						"method": "GET",
 						"header": [],
 						"body": {
@@ -175,6 +217,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "ngjern234gj3rg03"
+							}
+						},
 						"method": "GET",
 						"header": [],
 						"body": {
@@ -197,6 +245,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "ngjern234gj3rg03"
+							}
+						},
 						"method": "GET",
 						"header": [],
 						"body": {
@@ -219,6 +273,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "ngjern234gj3rg03"
+							}
+						},
 						"method": "GET",
 						"header": [],
 						"body": {
@@ -241,6 +301,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "ngjern234gj3rg03"
+							}
+						},
 						"method": "DELETE",
 						"header": [],
 						"url": "http://localhost:5000/api/posts/67c00942058c4cb18ac77e4e"
@@ -287,6 +353,12 @@
 					"name": "New request",
 					"id": "69464687-af2b-4ffb-913c-4f5a65148a01",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "ngjern234gj3rg03"
+							}
+						},
 						"method": "GET",
 						"header": [],
 						"url": ""
