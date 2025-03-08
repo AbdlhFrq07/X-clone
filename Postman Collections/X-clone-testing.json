@@ -248,7 +248,37 @@
 					"response": []
 				}
 			],
-			"id": "03f22dce-1c5e-42a8-8b98-0d7efe3e526c"
+			"id": "03f22dce-1c5e-42a8-8b98-0d7efe3e526c",
+			"auth": {
+				"type": "bearer",
+				"bearer": {
+					"token": "ngjern234gj3rg03"
+				}
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "b4be7156-271f-4d05-8c0d-a525ce9f8790",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "9487746e-dd7a-4db4-b777-ae6bce3161b1",
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				}
+			]
 		},
 		{
 			"name": "Notifications",
@@ -406,7 +436,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "51780600-654e-4028-916a-52997fc2d76f",
+				"id": "62dc2200-4ace-4322-9d75-b254b326e276",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -417,7 +447,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "8646ade0-854c-4413-b20d-2e951566d1cd",
+				"id": "add0991c-66bb-47a1-8793-d8df1966e159",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
