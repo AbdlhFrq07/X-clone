@@ -1,0 +1,399 @@
+{
+	"info": {
+		"_postman_id": "a9e5d4a3-bdfa-4c94-b53d-9f74d9d4353c",
+		"name": "Twitter-clone",
+		"schema": "https://schema.postman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "SignUp",
+					"id": "d0d345ff-9038-4004-bc69-1747c32778de",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\" : \"Cat\",\r\n    \"email\": \"Cat@gmail.com\",\r\n    \"fullName\": \"Cat The Poonai\", \r\n    \"password\": \"AbdullahFarooq1999\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/auth/signup"
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"id": "6f0f1f20-a5aa-41a5-a1fe-a0b80b3ac968",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\" : \"Abdullah Farooq\", \r\n    \"password\": \"AbdullahFarooq1999\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/auth/login"
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"id": "df276cb7-b469-47f4-8d64-85a7cca9579d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\" : \"Abdullah\", \r\n    \"password\": \"AbdullahFarooq1999\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/auth/login"
+					},
+					"response": []
+				}
+			],
+			"id": "2a42f28e-7f34-40aa-806b-5e671bae86ff"
+		},
+		{
+			"name": "Post",
+			"item": [
+				{
+					"name": "Create",
+					"id": "4aaa0049-d2e0-44ff-af8e-0a2ae0055a16",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\" : \"this is my third post\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/posts/create"
+					},
+					"response": []
+				},
+				{
+					"name": "Comment",
+					"id": "701a8fd6-5240-48b7-91c9-b4c9cc4a97b8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\" : \"this is my third post\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/posts/create"
+					},
+					"response": []
+				},
+				{
+					"name": "like post",
+					"id": "c00c425c-0d94-4542-83fe-51065d1aa6ee",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\" : \"this is my third post\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/posts/create"
+					},
+					"response": []
+				},
+				{
+					"name": "get all posts",
+					"id": "65d83465-4292-44d2-8914-c422e083449a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\" : \"this is my third post\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/posts/all"
+					},
+					"response": []
+				},
+				{
+					"name": "get liked posts",
+					"id": "2cfbe7f4-132e-47a3-9ec0-db02ef5a6af5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\" : \"this is my third post\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/posts/likes"
+					},
+					"response": []
+				},
+				{
+					"name": "Following Posts",
+					"id": "7f54ae0b-748c-4e8d-be24-31543c9acf66",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\" : \"this is my third post\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/posts/likes"
+					},
+					"response": []
+				},
+				{
+					"name": "User Posts",
+					"id": "8567823e-49d3-4ede-9578-515499155f1e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\" : \"this is my third post\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/posts/likes"
+					},
+					"response": []
+				},
+				{
+					"name": "delete post",
+					"id": "5fa16000-62d0-4b60-8feb-d28070c627cd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:5000/api/posts/67c00942058c4cb18ac77e4e"
+					},
+					"response": []
+				}
+			],
+			"id": "03f22dce-1c5e-42a8-8b98-0d7efe3e526c"
+		},
+		{
+			"name": "Notifications",
+			"item": [
+				{
+					"name": "New request",
+					"id": "69464687-af2b-4ffb-913c-4f5a65148a01",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"id": "992f6f00-fc5c-4e89-9da1-7ccc280b53ce",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": ""
+					},
+					"response": []
+				}
+			],
+			"id": "a0127f87-bd36-4379-b371-79d5052d58bf"
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "get profile",
+					"id": "f983d80d-e367-4415-840b-37e0ea4b6bc8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\" : \"Abdullah\", \r\n    \"password\": \"AbdullahFarooq1999\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/users/profile/Abdullah"
+					},
+					"response": []
+				},
+				{
+					"name": "follow",
+					"id": "7151fa48-d6c5-4b76-a6ca-b4295749ed80",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\" : \"Abdullah\", \r\n    \"password\": \"AbdullahFarooq1999\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/users/follow/"
+					},
+					"response": []
+				},
+				{
+					"name": "getMe",
+					"id": "e42056f3-1eed-4b0e-b417-7e0834259bfc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\" : \"Abdullah\", \r\n    \"password\": \"AbdullahFarooq1999\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/auth/login"
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"id": "1c782251-6cdf-45df-9619-0af209dc28e0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"current password\": \"AbdullahFarooq1999\",\r\n    \"new password\": \"Abdullah1999\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/users/update"
+					},
+					"response": []
+				},
+				{
+					"name": "suggested",
+					"id": "cd9cfefd-fc3e-466a-bebb-2fc57fba53e5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\" : \"Abdullah\", \r\n    \"password\": \"AbdullahFarooq1999\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/api/users/suggested"
+					},
+					"response": []
+				}
+			],
+			"id": "e438761e-bd8e-417c-8806-ad0ce4ac2d4d"
+		}
+	]
+}
