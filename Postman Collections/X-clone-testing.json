@@ -395,5 +395,35 @@
 			],
 			"id": "e438761e-bd8e-417c-8806-ad0ce4ac2d4d"
 		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": {
+			"token": "ngjern234gj3rg03"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "51780600-654e-4028-916a-52997fc2d76f",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "8646ade0-854c-4413-b20d-2e951566d1cd",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
 	]
 }
