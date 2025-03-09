@@ -526,7 +526,7 @@
 								}
 							}
 						},
-						"url": "http://localhost:5000/api/users/suggested"
+						"url": "https://x-clone-render.onrender.com/api/users/suggested"
 					},
 					"response": []
 				}
