@@ -111,7 +111,6 @@ The backend will run on `http://localhost:5000/`
 |--------|-----------------------|----------------------|
 | GET    | `/api/notifications/` | Get user notifications |
 
-*(More endpoints can be added based on the controllers)*
 
 ##  Testing with Postman
 - Import the provided **Postman collection** [here](#) (Add link if available)
@@ -124,10 +123,6 @@ You can deploy the backend using:
 - **Heroku**
 - **Vercel (Serverless Functions)**
 
-##  License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
 
-Let me know if you want to tweak anything or add more details! 
 
