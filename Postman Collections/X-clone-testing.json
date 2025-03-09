@@ -18,7 +18,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "POST",
@@ -46,7 +46,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "POST",
@@ -74,7 +74,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "POST",
@@ -108,7 +108,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "POST",
@@ -136,7 +136,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "POST",
@@ -164,7 +164,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "POST",
@@ -192,7 +192,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "GET",
@@ -220,7 +220,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "GET",
@@ -248,7 +248,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "GET",
@@ -276,7 +276,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "GET",
@@ -304,7 +304,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "DELETE",
@@ -318,7 +318,7 @@
 			"auth": {
 				"type": "bearer",
 				"bearer": {
-					"token": "ngjern234gj3rg03"
+					"token": "{{vault:authorization-secret}}"
 				}
 			},
 			"event": [
@@ -356,7 +356,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "GET",
@@ -375,7 +375,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "GET",
@@ -400,7 +400,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "GET",
@@ -428,7 +428,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "POST",
@@ -456,7 +456,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "GET",
@@ -484,7 +484,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "POST",
@@ -512,7 +512,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "ngjern234gj3rg03"
+								"token": "{{vault:authorization-secret}}"
 							}
 						},
 						"method": "GET",
@@ -537,7 +537,7 @@
 	"auth": {
 		"type": "bearer",
 		"bearer": {
-			"token": "ngjern234gj3rg03"
+			"token": "{{vault:authorization-secret}}"
 		}
 	},
 	"event": [
