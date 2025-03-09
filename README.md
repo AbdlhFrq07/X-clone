@@ -2,7 +2,7 @@
 
 This is a backend-only Twitter clone built using **Node.js, Express, and MongoDB**. It provides a REST API for core functionalities such as authentication, tweeting, following users, liking posts, and notifications. API requests can be tested using **Postman**.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 ### Languages & Frameworks:
 - **Node.js** (JavaScript runtime)
@@ -17,17 +17,17 @@ This is a backend-only Twitter clone built using **Node.js, Express, and MongoDB
 - **dotenv** (Environment variables)
 - **cookie-parser** (Handling cookies)
 
-## ✨ Features
+## Features
 - **User Authentication** (Signup, Login, JWT-based authentication)
 - **Posting Tweets** (Create, Read, Delete tweets)
 - **Following Users** (Follow/unfollow functionality)
 - **Liking Tweets** (Like/unlike tweets)
 - **Notifications** (Receive notifications for likes, follows, etc.)
 
-## 🛠 Project Structure
+## Project Structure
 This project follows the **MVC (Model-View-Controller) architecture**. Since this is a backend-only project, there is no "View" component.
 
-### 📂 Folder & File Structure
+### Folder & File Structure
 ```
 📦 twitter-clone-backend
  ┣ 📂 controllers
@@ -49,7 +49,7 @@ This project follows the **MVC (Model-View-Controller) architecture**. Since thi
  ┣ 📜 package.json
 ```
 
-## 🛠 Installation & Setup
+##  Installation & Setup
 ### Prerequisites
 Ensure you have the following installed:
 - **Node.js** (v16+ recommended)
@@ -84,7 +84,7 @@ npm start
 
 The backend will run on `http://localhost:5000/`
 
-## 🔥 API Documentation
+##  API Documentation
 
 ### Authentication Routes
 | Method | Endpoint           | Description        |
@@ -113,21 +113,21 @@ The backend will run on `http://localhost:5000/`
 
 *(More endpoints can be added based on the controllers)*
 
-## 🛠 Testing with Postman
+##  Testing with Postman
 - Import the provided **Postman collection** [here](#) (Add link if available)
 - Make API requests to test authentication, posting, following, and liking features.
 
-## 🚀 Deployment (Optional)
+##  Deployment (Optional)
 You can deploy the backend using:
 - **Render**
 - **Railway**
 - **Heroku**
 - **Vercel (Serverless Functions)**
 
-## 📜 License
+##  License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-Let me know if you want to tweak anything or add more details! 🚀
+Let me know if you want to tweak anything or add more details! 
 
