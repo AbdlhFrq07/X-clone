@@ -113,7 +113,7 @@ The backend will run on `http://localhost:5000/`
 
 
 ##  Testing with Postman
-- Import the provided **Postman collection** [here](https://x-clone-render.onrender.com) 
+- Import the provided **Postman collection** [here](https://www.postman.com/gold-trinity-127482/workspace/my-workspace/collection/41742693-e6cdc9fe-dea8-4faa-9e32-1231a06c1d3c?action=share&creator=41742693) 
 - Make API requests to test authentication, posting, following, and liking features.
 
 ##  Deployment (Optional)
